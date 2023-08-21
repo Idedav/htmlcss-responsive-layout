@@ -249,3 +249,13 @@ footer .row .col{
         display: flex;
     }
 }
+
+@media screen and (min-width:1200px){
+    .strategic .row{
+        flex-direction: row;
+    }
+
+    .benefits .row .col{
+        width: calc(100%/3);
+    }
+}
