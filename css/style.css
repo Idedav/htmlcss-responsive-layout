@@ -162,3 +162,47 @@ header nav{
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+/* GET STARTED */
+
+.started{
+    background-color: rgb(165, 90, 165);
+}
+
+.started .row{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.started .row .col{
+    width: 100%;
+    height: 700px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer .row{
+    width: 80%;
+    margin: auto;
+}
+
+footer .row .col{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
