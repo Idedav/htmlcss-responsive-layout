@@ -75,9 +75,6 @@ header nav .menu ul li button{
 }
 
 .intro .row .col{
-    height: 300px;
-    border: 1px solid black;
-    background-color: rgb(172, 238, 238);
     display: flex;
     flex-direction: column;
 }
@@ -85,15 +82,66 @@ header nav .menu ul li button{
 .intro .row .col .card{
     width: 95%;
     height: 95%;
-    background-color: rgb(245, 167, 167);
+    background-color: #B5DDFF;
     border-radius: 20px;
-    margin:auto;
+    margin:15px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
 }
 
+.intro .row .col .card .text p{
+    line-height: 1.7rem;
+}
+
+.intro .row .col.big .card .text{
+    width: 75%;
+    margin: 20px 0px;
+}
+
+.intro .row .col.big .card .text h2{
+    color: #0084FD;
+    padding-bottom: 20px;
+}
+
+.intro .row .col.big .card .text button{
+    margin-top: 20px;
+    color: white;
+    background-color: #0084FD;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+}
+
+.intro .row .col.big .card .text button i{
+    padding-right: 10px;
+}
+
+.intro .row .col.big .card .image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.intro .row .col.big .card .image img{
+    width: 250px;
+}
+
+.intro .row .col.small .text{
+    text-align: center;
+    padding: 25px;
+}
+
+.intro .row .col.small .text i{
+    font-size: 70px;
+    color: #0084FD;
+    padding-top: 20px;
+}
+
+.intro .row .col.small .text h2{
+    color: #0084FD;
+    margin: 20px 0px;
+}
 
 /* STRATEGIC */
 
