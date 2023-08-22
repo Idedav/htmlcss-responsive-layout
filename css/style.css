@@ -11,8 +11,11 @@ body{
 
 /* HEADER */
 header{
+    width: 100%;
     height: 100px;
     background-color: #0084FD;
+    position: fixed;
+    z-index: 99;
 }
 
 header nav{
@@ -31,6 +34,7 @@ header nav .logo img{
 header nav .hamburger a i{
     font-size: 2rem;
     color: white;
+    line-height: 100px;
 }
 
 header nav .menu{
@@ -67,7 +71,9 @@ header nav .menu ul li button{
 .intro{
     width: 80%;
     max-width: 1300px;
-    margin: 50px auto;
+    margin:auto;
+    padding-top: 150px;
+    padding-bottom: 50px;
 }
 
 .intro .row{
