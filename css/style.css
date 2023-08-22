@@ -424,7 +424,7 @@ header nav .menu ul li button{
 /* GET STARTED */
 
 .started{
-    background-color: rgb(165, 90, 165);
+    background-color: #9792E4;
 }
 
 .started .row{
@@ -435,18 +435,56 @@ header nav .menu ul li button{
 
 .started .row .col{
     width: 100%;
-    height: 700px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    color: white;
+    text-align: center  ;
 }
+
+.started .row .col span{
+    display: inline-block;
+    font-size: 1.3rem;
+    padding: 20px 0px;
+}
+
+
+.started .row .col h2{
+    font-size: 2rem;
+    padding-bottom: 50px;
+}
+
+
+.started .row .col h1{
+    font-size: 4rem;
+    color: #FEC25D;
+}
+
+.started .row .col p{
+    line-height: 1.7rem;
+    padding: 50px 0px;
+}
+
+.started .row .col button{
+    padding: 15px 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    color: #9792E4;
+    font-size: 1.2rem;
+}
+
+
+.started .row .col p a{
+    color: white;
+}
+
 
 /* FOOTER */
 
 footer{
-    background-color: black;
+    background-color: #333333;
     color: white;
 }
 
@@ -457,12 +495,19 @@ footer .row{
 
 footer .row .col{
     width: 100%;
-    height: 300px;
     display: flex;
     text-align: center;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+footer .row .col p{
+    padding-top: 50px;
+}
+
+footer .row .col a{
+    color: #9792E4;
 }
 
 /* MEDIA QUERY */
