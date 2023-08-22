@@ -146,13 +146,13 @@ header nav .menu ul li button{
 /* STRATEGIC */
 
 .strategic{
-    background-color: rgb(165, 90, 165);
+    background-color: #9792E4;
 }
 
 .strategic .row{
     width: 80%;
     margin: auto;
-    padding: 30px 0px;
+    padding: 60px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -160,8 +160,7 @@ header nav .menu ul li button{
 
 .strategic .row .col{
     width: 100%;
-    height: 200px;
-    border: 1px solid black;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,14 +168,50 @@ header nav .menu ul li button{
 }
 
 .strategic .row .col .card{
-    height: 90%;
-    width: 90%;
-    background-color: aliceblue;
+    background-color:white;
+    border-radius: 40px; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
+
+.strategic .row .col .image img{
+    width: 400px;
+}  
+
+.strategic .row .col .text{
+    color: white;
+    padding-bottom: 40px;
+    padding-right: 50px;
+}
+
+.strategic .row .col .text h2{
+    font-size: 1.8rem;
+    padding: 40px 0px;
+}
+
+.strategic .row .col .text p{
+    line-height: 1.7rem;
+}
+
+.strategic .row .col .card .text{
+    color: black;
+    text-align: center;
+    margin: 0px 30px;
+}
+
+.strategic .row .col .card .text p{
+    padding-bottom: 20px;
+}
+
+.strategic .row .col .card .circle{
+    background-color: #9792E4;
+    border-radius: 50%;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+}
+
 
 /* TESTIMONIALS */
 
