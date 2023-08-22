@@ -292,12 +292,14 @@ header nav .menu ul li button{
 /* BENEFITS */
 
 .benefits{
-    background-color: rgb(165, 90, 165);
+    background-color: #9792E4;
 }
 
 .benefits .title{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 50px;
+    color: white;
+    font-size: 1.7rem;
 }
 
 .benefits .row{
@@ -311,8 +313,6 @@ header nav .menu ul li button{
 
 .benefits .row .col{
     width: 100%;
-    height: 300px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -323,10 +323,42 @@ header nav .menu ul li button{
     width: 95%;
     height: 95%;
     border-radius: 20px;
-    background-color: rgb(228, 148, 148);
+    background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    margin: 15px 0px;
+}
+
+.benefits .row .col .card .text{
+    padding: 0px 20px;
+}
+
+.benefits .row .col .card .text h1,
+.benefits .row .col .card .text h3{
+    color: #9792E4;
+}
+
+.benefits .row .col .card .text h1{
+    font-size: 2.5rem;
+    padding-top: 20px;
+}
+
+.benefits .row .col .card .text h3{
+    padding: 15px 0px;
+    font-size: 1.5rem;
+}
+
+.benefits .row .col .card .text p{
+    line-height: 1.7rem;
+}
+
+.benefits .row .col .card .text button{
+    border: none;
+    color: white;
+    background-color: #9792E4;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 20px 0px;
 }
 
 /* ABOUT US */
