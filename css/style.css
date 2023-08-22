@@ -401,6 +401,14 @@ header nav .menu ul li button{
     padding: 20px 0px;
 }
 
+.about .row .col.image .fa-quote-left{
+    color: #9792E4;
+    font-size: 3rem;
+    position: relative;
+    left: 110px;
+    top: 40px;
+}
+
 .about .row .col.image .profile{
     width: 150px;
     text-align: start;
