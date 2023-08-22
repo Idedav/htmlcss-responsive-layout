@@ -17,7 +17,7 @@ header{
 
 header nav{
     width: 80%;
-    height: 100%;
+    max-width: 1300px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -66,6 +66,7 @@ header nav .menu ul li button{
 /* INTRO */
 .intro{
     width: 80%;
+    max-width: 1300px;
     margin: 50px auto;
 }
 
@@ -96,7 +97,7 @@ header nav .menu ul li button{
 
 .intro .row .col.big .card .text{
     width: 75%;
-    margin: 20px 0px;
+    margin: 20px 25px;
 }
 
 .intro .row .col.big .card .text h2{
@@ -119,8 +120,10 @@ header nav .menu ul li button{
 
 .intro .row .col.big .card .image{
     width: 50%;
+    height: 100%;
     display: flex;
     justify-content: center;
+    padding-top: 50px;
 }
 
 .intro .row .col.big .card .image img{
@@ -151,6 +154,7 @@ header nav .menu ul li button{
 
 .strategic .row{
     width: 80%;
+    max-width: 1300px;
     margin: auto;
     padding: 60px 0px;
     display: flex;
@@ -217,6 +221,7 @@ header nav .menu ul li button{
 
 .testimonials .row{
     width: 80%;
+    max-width: 1300px;
     margin: 50px auto;
     display: flex;
     flex-direction: column;
@@ -239,13 +244,14 @@ header nav .menu ul li button{
 
 .testimonials .row .col span{
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: .9rem;
 }
 
 .testimonials .row .col h1{
     color: #9792E4;
     font-size: 2rem;
-    text-align: center
+    text-align: center;
+    padding: 20px 0px;
 }
 
 .testimonials .row .col p{
@@ -304,6 +310,7 @@ header nav .menu ul li button{
 
 .benefits .row{
     width: 80%;
+    max-width: 1300px;
     margin: auto;
     padding: 50px 0px;
     display: flex;
@@ -365,6 +372,7 @@ header nav .menu ul li button{
 
 .about .row{
     width: 80%;
+    max-width: 1300px;
     margin: 50px auto;
 }
 
@@ -429,6 +437,7 @@ header nav .menu ul li button{
 
 .started .row{
     width: 80%;
+    max-width: 1300px;
     margin: auto;
     padding: 50px 0px;
 }
@@ -490,6 +499,7 @@ footer{
 
 footer .row{
     width: 80%;
+    max-width: 1300px;
     margin: auto;
 }
 
@@ -563,5 +573,9 @@ footer .row .col a{
 
     header nav .menu{
         display: block;
+    }
+
+    .intro .row .col.big .card{
+        flex-direction: row;
     }
 }
